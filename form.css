@@ -1,0 +1,103 @@
+body{
+    background-color: black;
+}
+.form{
+    color:white;
+    border:1px solid white;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 5px;
+    text-align: center;
+    margin-top:70px;
+    height:600px;
+    width:600px;
+    margin-left:800px;
+    
+}
+#title{
+    color:black;
+    margin-top: -40px;
+}
+#left{
+    margin-left: 70px;
+    margin-top: 50px;
+}
+#right{
+    margin-right:70px;
+    margin-top:-10px;
+}
+#abt{
+    color: grey;
+}
+#fname{
+    margin-top: 50px;
+    font-size: 15px;
+    height:30px;
+    margin-left: -80px;
+}
+#lname{
+    height:30px;
+    font-size: 15px;
+    margin-right: -50px;
+    padding:0px 10px;
+}
+#email{
+    margin-top: 30px;
+    height:30px;
+    font-size: 15px;
+    width:400px;
+    margin-left:-20px;
+}
+#pwd{
+    margin-top:30px;
+    height:30px;
+    font-size: 15px;
+    width:400px;
+    margin-left:-20px;
+
+}
+#chk{
+    margin-top:40px;
+    margin-left:-120px;
+
+}
+#txt{
+    color:grey;
+}
+#txt1{
+    color:rgb(26, 216, 26);
+}
+#bttn{
+    background-color: rgb(21, 171, 21);
+    color:white;
+    margin-top:30px;
+    height:40px;
+    font-size: 20px;
+    width:400px;
+    margin-left:-20px;
+}
+#bttn:hover{
+    background-color: rgb(11, 133, 11);
+    font-size: 25px;
+}
+.tagline{
+    color:white;
+    font-size: 30px;
+    text-align: center;
+    margin-left:-700px;
+    margin-top: -500px;
+}
+#tag{
+    font-size:20px;
+    margin-top: 50px;
+}
+.signIn{
+    color:white;
+    font-size: 20px;
+    margin-top:260px;
+    text-align: center;
+    margin-left: 700px;
+}
+.signIn a{
+    color:white;
+}

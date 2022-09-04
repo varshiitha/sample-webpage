@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="form.css" rel="stylesheet" type="text/css">
+    <title>sign up</title>
+</head>
+<body>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <div class="form">
+        <hr id="left" width="150px">
+        <hr id="right" width="150px">
+        <h1 id="title">Register</h1>
+        <p id="abt">Create your account. It's free and only takes a minute</p>
+        <form>
+            <input type="text" name="fname" placeholder="First Name" id="fname" required>
+            <input type="text" name="lname" placeholder="Last Name" id="lname" required><br>
+            <input type="email" name="email" placeholder="Email" id="email" required><br>
+            <input type="password" name="pwd" placeholder="password" id="pwd" required><br>
+            <input type="password" name="pwd" placeholder="password" id="pwd" required><br>
+            <input type="checkbox" name="chk" id="chk" required>
+            <label for="chk" id="txt">I accept the</label>
+            <label for="chk" id="txt1"> Terms of Use & Privacy Policy</label><br>
+            <button type="submit" id="bttn"> Register Now</button>
+            
+        </form>
+    </div>
+    <div class="tagline">
+        <h1>Edit when you<br>want, make what<br> you need</h1>
+        <p id="tag">Signup and earn on your terms.</p>
+    </div>
+    <div class="signIn">
+        <p>Already have an account? <a href="">sign in</a></p>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $("button").click(function(){
+                alert("registered successfully!")
+            })
+        })
+    </script>
+</body>
+</html>
